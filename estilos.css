@@ -35,6 +35,7 @@ ul a:hover {
 }
 
 .formulario {
+    margin-top: 50px;
     border: 10px solid #084e6c;
     background-color: #0a9ec3;
     padding: 12px;
@@ -49,6 +50,8 @@ ul a:hover {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    width: 150px;
+    margin: auto;
 }
 
 label {
@@ -59,5 +62,17 @@ label {
 
 input {
     width: 250px;
+}
+
+.boton {
+    display: flex;
+    justify-content: flex-end;
+    width: 100px;
+    margin: auto;
+}
+
+button {
+    padding: 20px;
+    cursor: pointer;
 }
 
